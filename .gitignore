@@ -1,2 +1,68 @@
 
+# WordPress database credentials
 wp-config.php
+
+# Wordfence runtime logs and firewall data
+/wp-content/wflogs/
+
+# WordPress cache and temporary files
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backup-*/
+/wp-content/debug.log
+debug.log
+error_log
+*.log
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Database backups and exports
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+*.dump
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+._*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.orig
+*.rej
+*.old
+
+# Package dependencies
+node_modules/
+vendor/
+
+# Testing and coverage output
+/coverage/
+/.phpunit.cache/
